@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anas Fitness</title>
+
+    <style>
+        body {
+            margin: 0 px;
+            padding: 0px;
+            background: url("img/gym.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            height: 3000px;
+            color: white;
+            
+        }
+
+        .left {
+            position: absolute;
+            left: 22px;
+            top: 20px;
+            display: inline;
+            border: 2px solid red;
+            font-size: 25px;
+        }
+
+        .left img {
+            width: 100px;
+            background-position: center top;
+        }
+
+        .mid {
+            display: block;
+            border: 2px solid green;
+            width: 50%;
+            margin: 20px auto;
+            text-align: center;
+        }
+
+        .right {
+            position: absolute;
+            right: 22px;
+            top: 20px;
+            display: inline;
+            border: 2px solid yellow;
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 20px;
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 34px, 23px;
+        }
+
+        .navbar li a:hover {
+            color: rgb(46, 185, 46);
+            text-decoration: underline;
+
+        }
+
+        .btn {
+            margin: 0px 9px;
+            background-color: black;
+            color: white;
+            border: 2px solid white;
+            border-radius: 20px;
+            padding: 4px 14px;
+            font-size: 15px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            color: rgb(46, 185, 46);
+
+        }
+        .container{
+            border: 2px solid green;
+            margin: 177px 85px;
+            padding: 17px 14px;
+            border-radius: 20px;
+            width: 50%;
+            display: block;
+        }
+        .form-group input{
+            text-align: center;
+            display: block;
+            margin: 4px auto;
+            padding: 4px;
+            width: 200px;
+            border: 2px solid green ;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="img/LOGO2.png" alt="">
+            <h3>Anas Fitness</h3>
+        </div>
+
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#"> Home </a></li>
+                <li><a href="#"> About Us </a></li>
+                <li><a href="#"> Fitness Calculator </a></li>
+                <li><a href="#"> Contact Us </a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join The Best Gym of Moradabad Now!</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Mobile No.">
+            </div>
+            <button class="btn">
+                Submit
+            </button>
+        </form>
+    </div>
+
+</body>
+
+</html>
